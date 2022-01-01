@@ -2,7 +2,7 @@
 
 A chrome extension build for the NERISTIAN which automate the process of wifi authentication of NERIST.The frontend is build by `richo-hub` and backend by  `nurexcoder`
 
-### Installation
+## Installation
 1. Clone the current project to your local machine:
     ```sh
     $ git clone https://github.com/richo-hub/auto_login.git
