@@ -1,6 +1,6 @@
-// 
-  // getData();
-  !function(email) {
+
+
+!function() {
       var myVar = setTimeout(
         function () {
           const username=document.getElementById("username")
@@ -14,25 +14,14 @@
                 let pass=window.btoa(password.value)
                 localStorage.pass=pass
                 console.log("saved")
-
+                submit.click();
               })
-          }
-          else{
-            username.value=localStorage.usr
-
-            password.value=atob(localStorage.pass)
+            }
+            else{
+              username.value=localStorage.usr
+              password.value=atob(localStorage.pass)
+              submit.click();
           }          
-          // fetch('./save.js').then(hi=>console.log(hi));
-          // if (username && password) {
-          //   // Update login value
-
-            // username.value = email;
-          //   // Update password value
-          //   password.value = "SwZD7W";
-          //   // Submit the form
-          // } 
-          submit.click();
+           
         }, 1000); // 1s
     } ()
-
-// export{username,password}

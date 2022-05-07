@@ -18,7 +18,7 @@
         "js": ["contentscript.js"],
         "matches": ["http://10.10.10.2:8090/httpclient.html"]
         }],
-    "web_accessible_resources": ["script.js"]
+    "web_accessible_resources": ["script.js","uninstall.js"]
  
 }
 
